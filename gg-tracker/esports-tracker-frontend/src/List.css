@@ -1,0 +1,67 @@
+/* components/MatchList.css */
+
+.match-list-container {
+    padding: 20px;
+  }
+  
+  .match-list-container .back-button {
+    background-color: #4a5568; /* Grayish button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .match-list-container .back-button:hover {
+    background-color: #2d3748;
+  }
+  
+  .matches-grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust min width as needed */
+    gap: 15px;
+    margin-top: 20px; /* Add some space below the back button */
+  }
+  
+  .match-item-detailed {
+    background-color: #2a2e3d;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .match-time {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .teams-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  .versus {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0 5px;
+  }
+  
+  .match-date {
+    font-size: 16px;
+    margin-left: 15px;
+    color: #bbb;
+  } 
